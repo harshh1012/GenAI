@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore public folder (React build assets or static files)
+public/
