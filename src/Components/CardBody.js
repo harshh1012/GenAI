@@ -56,7 +56,7 @@ const CardBody = () => {
                     perplexityPerLine: "N/A"
                 });
             }
-            setText(""); // Clear the text field after submission
+            setText(""); 
         } catch (err) {
             console.error("Error during analysis:", err.message);
         }

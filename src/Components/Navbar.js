@@ -4,7 +4,7 @@ import '../App.css'
 
 const Navbar = () => {
     const redirectToGithub =()=>{
-        window.location.href = "https://github.com/AkashKobal/Generative-AI-Detection";
+        window.location.href = "https://github.com/harshh1012/GenAI.git";
     }
 
     return (

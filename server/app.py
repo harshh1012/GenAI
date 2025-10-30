@@ -82,7 +82,7 @@ class GPT2PPL:
 @app.route('/', methods=['POST'])
 def postData():
     try:
-        data = request.get_json()  # Get the JSON payload correctly
+        data = request.get_json()  # Get the JSON payload correct
         text = data.get('text')
         if not text:
             return jsonify({'error': 'No text provided'}), 400
